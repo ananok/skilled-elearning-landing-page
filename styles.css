@@ -389,7 +389,7 @@ footer button{
 
 
 /* Desktop */
-@media (min-width: 1115px) {
+@media (min-width: 1440px) {
   header{
     width:1109px;
     margin-left: 20px;
@@ -511,5 +511,4 @@ footer button{
     /* margin-right:170px; */
     width:167px;
   }
-  
   }
