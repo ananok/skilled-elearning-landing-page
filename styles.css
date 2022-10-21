@@ -345,6 +345,7 @@ position:relative
     left: 37px;
     top: -379.87px;
     display: block;
+    z-index: -1;
     
 }
 .tablet-img2{
@@ -358,6 +359,7 @@ position:relative
   position: absolute;
   left: 254px;
   top: -144.13px;
+  z-index: -1;
 }
 
 
@@ -385,6 +387,12 @@ footer button{
   margin-right:40px;
 }
 
+
+.started:hover{
+  cursor: pointer;
+  background: #666ca3;
+}
+
 }
 
 
@@ -403,6 +411,11 @@ footer button{
   }
   .started{
     width:167px;
+    cursor: pointer;
+  }
+  
+  .started:hover{
+    background: #666ca3;
   }
   .body-s{
     font-size: 18px;
@@ -458,6 +471,7 @@ footer button{
     left: 37px;
     top: -379.87px;
     display: block;
+    z-index: -1;
   }
   
   .tablet-img2 img{
@@ -467,6 +481,7 @@ footer button{
     position: absolute;
     left: 506px;
     top: -384.13px;
+    z-index: -1;
   }
   
   .section-three div{
@@ -511,4 +526,5 @@ footer button{
     /* margin-right:170px; */
     width:167px;
   }
+
   }
